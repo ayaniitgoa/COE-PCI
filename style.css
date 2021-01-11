@@ -29,6 +29,9 @@ header {
   color: #14244c;
   font-weight: bold;
 }
+.mobile-v {
+  display: none !important;
+}
 
 .navbar {
   background-color: #14244c !important;
@@ -53,6 +56,7 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 1.5rem;
+  align-items: center;
 }
 
 .text-scroll {
@@ -73,4 +77,90 @@ header {
 .welcome-header {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1265px) {
+  .text-scroll {
+    background-color: #14244c;
+    height: 15rem;
+    width: 23rem;
+  }
+
+  .welcome {
+    width: 23rem;
+  }
+}
+@media screen and (max-width: 1165px) {
+  .text-scroll {
+    background-color: #14244c;
+    height: 15rem;
+    width: 20rem;
+  }
+
+  .welcome {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 997px) {
+  .home-page-bottom {
+    display: none;
+  }
+
+  .mobile-v {
+    justify-content: center;
+    display: block !important;
+  }
+
+  .welcome {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .text-scroll-mob {
+    display: flex;
+    width: 90vw;
+
+    margin: 20px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 713px) {
+  .text-scroll-mob {
+    justify-content: center;
+  }
+  .text-scroll {
+    width: 22rem;
+  }
+
+  .text-scroll-two {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .coelogo {
+    width: 2rem;
+    margin: 5px;
+  }
+
+  .header-left {
+    font-size: 0.6rem;
+  }
+
+  .iit-goa-logo {
+    width: 2.5rem;
+    margin: 5px;
+  }
+
+  .welcome-header {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .welcome-text {
+    font-size: 0.8rem;
+  }
 }
