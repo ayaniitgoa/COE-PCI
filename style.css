@@ -65,6 +65,15 @@ header {
   width: 28rem;
 }
 
+.text-scroll-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 7px;
+}
+
 .welcome {
   width: 29rem;
   font-family: "Montserrat", sans-serif;
@@ -77,6 +86,41 @@ header {
 .welcome-header {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.text-scroll-text {
+  width: 90%;
+  position: relative;
+  font-size: 0.9rem;
+  margin: 10px auto;
+  list-style: none;
+  color: white;
+  overflow: hidden;
+  height: 80%;
+}
+
+.text-animation {
+  animation: scrolling 10s linear infinite;
+}
+.text-animation-mobile {
+  animation: scrolling-mob 10s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes scrolling-mob {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-56vh);
+  }
 }
 
 @media screen and (max-width: 1265px) {

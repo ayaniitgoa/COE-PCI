@@ -1,0 +1,45 @@
+.each-facility {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 1rem 0;
+}
+
+.each-facility img {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.facility-text {
+  text-align: justify;
+}
+.facility-one-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.facilities-header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 500px) {
+  .facilities-header {
+    font-size: 1rem;
+  }
+  .each-facility img {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .facility-text {
+    font-size: 0.8rem;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
