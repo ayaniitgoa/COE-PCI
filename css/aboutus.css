@@ -70,13 +70,13 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
   }
 
   .about-img {
-    width: 19rem;
+    width: 90vw;
     margin-top: 0.8rem;
   }
 }
@@ -85,13 +85,13 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
   }
 
-  .about-img {
+  /* .about-img {
     width: 17rem;
     margin-top: 0.8rem;
-  }
+  } */
 }
