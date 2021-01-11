@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coelogo {
+  width: 3.5rem;
+  margin: 5px 10px;
+}
+
+.iit-goa-logo {
+  width: 4rem;
+  margin: 5px 10px;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #14244c;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #14244c !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-item {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.carousel-inner img {
+  height: 45vh;
+  object-fit: cover;
+}
+.home-page-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.text-scroll {
+  background-color: #14244c;
+  height: 15rem;
+  width: 28rem;
+}
+
+.welcome {
+  width: 29rem;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.welcome-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
