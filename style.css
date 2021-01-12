@@ -99,6 +99,10 @@ header {
   height: 80%;
 }
 
+.text-scroll-text ul li {
+  margin-top: 10px;
+}
+
 .text-animation {
   animation: scrolling 10s linear infinite;
 }
@@ -111,15 +115,15 @@ header {
     transform: translateY(100%);
   }
   100% {
-    transform: translateY(-30vh);
+    transform: translateY(-40vh);
   }
 }
 @keyframes scrolling-mob {
   0% {
-    transform: translateY(0%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateY(-56vh);
+    transform: translateY(-65vh);
   }
 }
 
