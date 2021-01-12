@@ -36,6 +36,8 @@ header {
 .navbar {
   background-color: #14244c !important;
   color: white !important;
+  border-bottom: #d39232 2px solid;
+  border-top: #d39232 2px solid;
 }
 
 .nav-link {
@@ -63,6 +65,7 @@ header {
   background-color: #14244c;
   height: 15rem;
   width: 28rem;
+  border: 2px solid #d39232;
 }
 
 .text-scroll-title {
@@ -72,6 +75,7 @@ header {
   font-weight: 600;
   font-size: 1.1rem;
   margin-top: 7px;
+  border-bottom: 1px solid #d39232;
 }
 
 .welcome {

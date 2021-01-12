@@ -24,6 +24,8 @@
 .about-img {
   width: 23rem;
   margin-top: 0.5rem;
+  background-color: #d39232;
+  border: 2px solid #d39232;
 }
 
 @media screen and (max-width: 1025px) {

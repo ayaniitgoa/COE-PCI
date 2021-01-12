@@ -1,5 +1,7 @@
 .research-img {
   width: 26rem;
+  border: 2px solid #d39232;
+  background-color: #d39232;
 }
 
 .research-div {
