@@ -33,6 +33,15 @@ header {
   display: none !important;
 }
 
+.searchbar {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.searchbar::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
 .navbar {
   background-color: #14244c !important;
   color: white !important;

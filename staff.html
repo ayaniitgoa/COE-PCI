@@ -109,7 +109,13 @@
       </div>
     </nav>
     <div class="staff-header">STAFF</div>
-
+    <input
+      type="text"
+      id="searchBar"
+      class="form-control searchbar"
+      onkeyup="searchFunction()"
+      placeholder="Search by Name, Department or Research Interest"
+    />
     <div class="staff-all">
       <div class="staff-each">
         <div class="staff-each-left">
@@ -291,5 +297,38 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const searchFunction = () => {
+        let filter = document.getElementById("searchBar").value.toUpperCase();
+
+        let staffNameElement = document.getElementsByClassName("staff-name");
+        let staffBranchElement = document.getElementsByClassName(
+          "staff-expertise"
+        );
+        let staffResearchElement = document.getElementsByClassName(
+          "staff-interest"
+        );
+        let staffEachElement = document.getElementsByClassName("staff-each");
+        for (let i = 0; i < staffNameElement.length; i++) {
+          const staffName = staffNameElement[i];
+          const staffBranch = staffBranchElement[i];
+          const staffResearch = staffResearchElement[i];
+          let staffNameVal = staffName.innerText || staffName.innerHTML;
+          let staffBranchVal = staffBranch.innerText || staffBranch.innerHTML;
+          let staffResearchVal =
+            staffResearch.innerText || staffResearch.innerHTML;
+
+          if (
+            staffNameVal.toUpperCase().indexOf(filter) > -1 ||
+            staffBranchVal.toUpperCase().indexOf(filter) > -1 ||
+            staffResearchVal.toUpperCase().indexOf(filter) > -1
+          ) {
+            staffEachElement[i].style.display = "";
+          } else {
+            staffEachElement[i].style.display = "none";
+          }
+        }
+      };
+    </script>
   </body>
 </html>

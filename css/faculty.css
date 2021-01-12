@@ -50,6 +50,11 @@
   margin-left: 30px;
 }
 
+.searchbar {
+  width: 85vw;
+  margin: 0 auto;
+}
+
 .research-interest-title,
 .faculty-name {
   color: #14244c;

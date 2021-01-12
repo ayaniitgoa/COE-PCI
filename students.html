@@ -49,9 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html"
-              >HOME <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="./index.html">HOME </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./aboutus.html">ABOUT US</a>
@@ -109,6 +107,13 @@
       </div>
     </nav>
     <div class="student-header">STUDENTS</div>
+    <input
+      type="text"
+      id="searchBar"
+      class="form-control searchbar"
+      onkeyup="searchFunction()"
+      placeholder="Search by Name, Department or Research Interest"
+    />
 
     <div class="student-all">
       <div class="student-each">
@@ -291,5 +296,44 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const searchFunction = () => {
+        let filter = document.getElementById("searchBar").value.toUpperCase();
+
+        let studentNameElement = document.getElementsByClassName(
+          "student-name"
+        );
+        let studentBranchElement = document.getElementsByClassName(
+          "student-expertise"
+        );
+        let studentResearchElement = document.getElementsByClassName(
+          "student-interest"
+        );
+        let studentEachElement = document.getElementsByClassName(
+          "student-each"
+        );
+        for (let i = 0; i < studentNameElement.length; i++) {
+          const studentName = studentNameElement[i];
+          const studentBranch = studentBranchElement[i];
+          const studentResearch = studentResearchElement[i];
+          let studentNameVal = studentName.innerText || studentName.innerHTML;
+          let studentBranchVal =
+            studentBranch.innerText || studentBranch.innerHTML;
+          let studentResearchVal =
+            studentResearch.innerText || studentResearch.innerHTML;
+
+          if (
+            studentNameVal.toUpperCase().indexOf(filter) > -1 ||
+            studentBranchVal.toUpperCase().indexOf(filter) > -1 ||
+            studentResearchVal.toUpperCase().indexOf(filter) > -1
+          ) {
+            studentEachElement[i].style.display = "";
+          } else {
+            studentEachElement[i].style.display = "none";
+          }
+        }
+      };
+    </script>
   </body>
 </html>

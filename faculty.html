@@ -110,7 +110,13 @@
     </nav>
 
     <div class="faculty-header">FACULTY</div>
-
+    <input
+      type="text"
+      id="searchBar"
+      class="form-control searchbar"
+      onkeyup="searchFunction()"
+      placeholder="Search by Name, Department or Research Interest"
+    />
     <div class="faculty-all">
       <div class="faculty-each">
         <div class="faculty-each-left">
@@ -236,5 +242,38 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const searchFunction = () => {
+        let filter = document.getElementById("searchBar").value.toUpperCase();
+
+        let facNameElement = document.getElementsByClassName("faculty-name");
+        let facBranchElement = document.getElementsByClassName(
+          "faculty-expertise"
+        );
+        let facResearchElement = document.getElementsByClassName(
+          "faculty-interest"
+        );
+        let facEachElement = document.getElementsByClassName("faculty-each");
+        for (let i = 0; i < facNameElement.length; i++) {
+          const facName = facNameElement[i];
+          const facBranch = facBranchElement[i];
+          const facResearch = facResearchElement[i];
+          let facNameVal = facName.innerText || facName.innerHTML;
+          let facBranchVal = facBranch.innerText || facBranch.innerHTML;
+          let facResearchVal = facResearch.innerText || facResearch.innerHTML;
+
+          if (
+            facNameVal.toUpperCase().indexOf(filter) > -1 ||
+            facBranchVal.toUpperCase().indexOf(filter) > -1 ||
+            facResearchVal.toUpperCase().indexOf(filter) > -1
+          ) {
+            facEachElement[i].style.display = "";
+          } else {
+            facEachElement[i].style.display = "none";
+          }
+        }
+      };
+    </script>
   </body>
 </html>
