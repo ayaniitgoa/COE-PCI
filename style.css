@@ -43,6 +43,9 @@ header {
 .nav-link {
   color: white !important;
 }
+.nav-active {
+  color: #d39232 !important;
+}
 
 .nav-item {
   margin-right: 15px;

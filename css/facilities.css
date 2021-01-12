@@ -8,6 +8,8 @@
 .each-facility img {
   width: 100%;
   margin: 0.5rem 0;
+  border: 2px solid #d39232;
+  background-color: #d39232;
 }
 
 .facility-text {
