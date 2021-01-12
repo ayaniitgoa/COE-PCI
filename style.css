@@ -122,13 +122,21 @@ header {
 .text-animation {
   animation: scrolling 10s linear infinite;
 }
+
+.text-animation:hover {
+  animation-play-state: paused;
+}
 .text-animation-mobile {
   animation: scrolling-mob 10s linear infinite;
 }
 
+.text-animation-mobile:hover {
+  animation-play-state: paused;
+}
+
 @keyframes scrolling {
   0% {
-    transform: translateY(100%);
+    transform: translateY(90%);
   }
   100% {
     transform: translateY(-40vh);
