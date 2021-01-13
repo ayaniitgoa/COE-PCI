@@ -1,4 +1,4 @@
-.auto-header {
+.institute-header {
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
@@ -6,7 +6,7 @@
   margin: 0.5rem 0;
 }
 
-.auto-all {
+.institute-all {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,14 +15,14 @@
   color: #14244c;
 }
 
-.auto-des {
+.institute-des {
   margin-top: -10px;
 }
 
-.auto-interest {
+.institute-interest {
   margin-top: -15px;
 }
-.auto-each {
+.institute-each {
   width: 85vw;
   height: 100%;
   border: 1px rgb(172, 172, 172) solid;
@@ -32,26 +32,26 @@
   padding: 10px;
   margin-top: 1rem;
 }
-.auto-img {
+.institute-img {
   width: 119px;
   height: 153px;
 }
 
-.auto-each-left {
+.institute-each-left {
   display: flex;
 }
 
-.auto-each-right {
+.institute-each-right {
   margin-right: 25px;
 }
 
-.auto-each-info {
+.institute-each-info {
   width: 50vw;
   margin-left: 30px;
 }
 
 .research-interest-title,
-.auto-name {
+.institute-name {
   color: #14244c;
   font-weight: 500;
   font-size: 1.1rem;
@@ -62,49 +62,49 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .auto-each-info {
+  .institute-each-info {
     font-size: 0.9rem;
   }
 
-  .auto-each-right {
+  .institute-each-right {
     font-size: 0.9rem;
   }
 }
 
 @media screen and (max-width: 950px) {
-  .auto-each {
+  .institute-each {
     font-size: 0.8rem;
     width: 85vw;
   }
 }
 @media screen and (max-width: 835px) {
-  .auto-each {
+  .institute-each {
     flex-direction: column;
     justify-content: center;
   }
 
-  .auto-each-left {
+  .institute-each-left {
     margin: 0 auto;
   }
 
-  .auto-each-right {
+  .institute-each-right {
     margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .auto-header {
+  .institute-header {
     font-size: 1rem;
   }
 
-  .auto-each-left {
+  .institute-each-left {
     flex-direction: column;
     text-align: center;
     align-items: center;
   }
 
   .research-interest-title,
-  .auto-name {
+  .institute-name {
     color: #14244c;
     font-weight: 500;
     font-size: 0.9rem;

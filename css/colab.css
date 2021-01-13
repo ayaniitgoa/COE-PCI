@@ -1,0 +1,135 @@
+.company-header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.company-faculty-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.company-faculty-name {
+  color: #14244c;
+}
+
+.company-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  color: #14244c;
+}
+
+.company-each {
+  width: 85vw;
+  height: 100%;
+  border: 1px rgb(172, 172, 172) solid;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.company-img {
+  width: 119px;
+  height: 153px;
+}
+
+.company-each-left {
+  display: flex;
+}
+
+.company-each-right {
+  margin-right: 25px;
+}
+
+.company-each-info {
+  width: 45vw;
+  margin-left: 30px;
+}
+
+.company-name {
+  color: #14244c;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* @media screen and (max-width: 1100px) {
+  .company-each-info {
+    font-size: 0.9rem;
+  }
+
+  .company-each-right {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .company-each {
+    font-size: 0.8rem;
+    width: 85vw;
+  }
+}
+
+*/
+@media screen and (max-width: 835px) {
+  .company-each {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-each-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  .company-each-right {
+    margin-left: 30px;
+  }
+
+  .company-name {
+    margin-top: 10px;
+  }
+
+  .company-each-left {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .company-header {
+    font-size: 1rem;
+  }
+
+  .company-info {
+    width: 70vw;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .company-each-left {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .company-name {
+    color: #14244c;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+}
