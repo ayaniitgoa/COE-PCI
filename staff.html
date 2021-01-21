@@ -329,19 +329,23 @@
           "staff-interest"
         );
         let staffEachElement = document.getElementsByClassName("staff-each");
+        let staffEmailElement = document.getElementsByClassName("staff-email");
         for (let i = 0; i < staffNameElement.length; i++) {
           const staffName = staffNameElement[i];
           const staffBranch = staffBranchElement[i];
           const staffResearch = staffResearchElement[i];
+          const staffEmail = staffEmailElement[i];
           let staffNameVal = staffName.innerText || staffName.innerHTML;
           let staffBranchVal = staffBranch.innerText || staffBranch.innerHTML;
           let staffResearchVal =
             staffResearch.innerText || staffResearch.innerHTML;
+          let staffEmailVal = staffEmail.innerText || staffEmail.innerHTML;
 
           if (
             staffNameVal.toUpperCase().indexOf(filter) > -1 ||
             staffBranchVal.toUpperCase().indexOf(filter) > -1 ||
-            staffResearchVal.toUpperCase().indexOf(filter) > -1
+            staffResearchVal.toUpperCase().indexOf(filter) > -1 ||
+            staffEmailVal.toUpperCase().indexOf(filter) > -1
           ) {
             staffEachElement[i].style.display = "";
           } else {

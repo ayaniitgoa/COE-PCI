@@ -38,6 +38,10 @@
   height: 153px;
 }
 
+.faculty-designation {
+  font-weight: 500;
+}
+
 .faculty-each-left {
   display: flex;
 }
@@ -126,10 +130,15 @@
   .faculty-each-right {
     margin: 0px;
     text-align: center;
+    font-size: 0.8rem;
   }
   .faculty-each {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 0.8rem;
   }
 }

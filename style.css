@@ -63,6 +63,7 @@ header {
 
 .carousel-inner img {
   height: 45vh;
+  /* height: 60vh; */
   object-fit: cover;
 }
 .home-page-bottom {
@@ -233,6 +234,10 @@ header {
   }
 
   .welcome-text {
+    font-size: 0.8rem;
+  }
+
+  input::-webkit-input-placeholder {
     font-size: 0.8rem;
   }
 }

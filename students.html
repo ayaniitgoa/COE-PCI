@@ -335,20 +335,27 @@
         let studentEachElement = document.getElementsByClassName(
           "student-each"
         );
+        let studentEmailElement = document.getElementsByClassName(
+          "student-email"
+        );
         for (let i = 0; i < studentNameElement.length; i++) {
           const studentName = studentNameElement[i];
           const studentBranch = studentBranchElement[i];
           const studentResearch = studentResearchElement[i];
+          const studentEmail = studentEmailElement[i];
           let studentNameVal = studentName.innerText || studentName.innerHTML;
           let studentBranchVal =
             studentBranch.innerText || studentBranch.innerHTML;
           let studentResearchVal =
             studentResearch.innerText || studentResearch.innerHTML;
+          let studentEmailVal =
+            studentEmail.innerText || studentEmail.innerHTML;
 
           if (
             studentNameVal.toUpperCase().indexOf(filter) > -1 ||
             studentBranchVal.toUpperCase().indexOf(filter) > -1 ||
-            studentResearchVal.toUpperCase().indexOf(filter) > -1
+            studentResearchVal.toUpperCase().indexOf(filter) > -1 ||
+            studentEmailVal.toUpperCase().indexOf(filter) > -1
           ) {
             studentEachElement[i].style.display = "";
           } else {
