@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.contact-info {
+  font-weight: 600;
+}
+
 .month ul {
   margin: 0;
   padding: 0;
@@ -99,5 +103,9 @@ ul {
 @media screen and (max-width: 500px) {
   .contact-us-header {
     font-size: 1rem;
+  }
+
+  .contact-info {
+    font-size: 0.8rem;
   }
 }
