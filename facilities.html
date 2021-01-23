@@ -140,148 +140,7 @@
             <th class="facility-text" scope="col">Image</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td class="facility-text">1</td>
-            <td
-              class="facility-name facility-text"
-              data-toggle="modal"
-              data-target="#facilityOne"
-            >
-              Ice machine
-            </td>
-            <div
-              class="modal fade"
-              id="facilityOne"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5
-                      class="modal-title facility-text"
-                      id="exampleModalLabel"
-                    >
-                      Ice Machine
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body facility-text">Ice Machine</div>
-                </div>
-              </div>
-            </div>
-            <td>
-              <img
-                class="facility-img"
-                src="https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                alt=""
-              />
-            </td>
-          </tr>
-          <tr>
-            <td class="facility-text">2</td>
-            <td
-              class="facility-name facility-text"
-              data-toggle="modal"
-              data-target="#facilityTwo"
-            >
-              -30&#176; C Freezer
-            </td>
-            <div
-              class="modal fade"
-              id="facilityTwo"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5
-                      class="modal-title facility-text"
-                      id="exampleModalLabel"
-                    >
-                      -30&#176; C Freezer
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body facility-text">
-                    -30&#176; C Freezer
-                  </div>
-                </div>
-              </div>
-            </div>
-            <td>
-              <img
-                class="facility-img"
-                src="https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                alt=""
-              />
-            </td>
-          </tr>
-          <tr>
-            <td class="facility-text">3</td>
-            <td
-              class="facility-name facility-text"
-              data-toggle="modal"
-              data-target="#facilityThree"
-            >
-              Chemical fume hood
-            </td>
-            <div
-              class="modal fade"
-              id="facilityThree"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5
-                      class="modal-title facility-text"
-                      id="exampleModalLabel"
-                    >
-                      Chemical fume hood
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body facility-text">Chemical fume hood</div>
-                </div>
-              </div>
-            </div>
-            <td>
-              <img
-                class="facility-img"
-                src="https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                alt=""
-              />
-            </td>
-          </tr>
-        </tbody>
+        <tbody id="table-body"></tbody>
       </table>
     </div>
 
@@ -295,5 +154,8 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+    <!-- SCRIPT TAG TO POPULATE TABLE BODY -->
+    <script src="./javascript/facilities.js"></script>
   </body>
 </html>
