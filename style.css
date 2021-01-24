@@ -33,6 +33,14 @@ header {
   display: none !important;
 }
 
+.btn-welcome {
+  background-color: #14244c;
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  border: 2px solid #d39232;
+}
+
 .searchbar {
   width: 85vw;
   margin: 0 auto;
@@ -62,7 +70,7 @@ header {
 }
 
 .carousel-inner img {
-  height: 45vh;
+  height: 40vh;
   /* height: 60vh; */
   object-fit: cover;
 }
@@ -190,6 +198,11 @@ header {
     display: block !important;
   }
 
+  .btn-welcome-mob {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+
   .welcome {
     width: 90vw;
     margin: 0 auto;
@@ -216,6 +229,11 @@ header {
 
   .text-scroll-two {
     margin-top: 30px;
+  }
+
+  .btn-welcome-mob {
+    padding: 5px 10px;
+    font-size: 0.7rem;
   }
 }
 
