@@ -92,17 +92,23 @@ header {
 }
 
 .welcome {
-  width: 29rem;
+  width: 33rem;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
+  font-size: 0.9rem;
+  margin-top: -0.8rem;
 }
 
 .welcome-header {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.welcome-text {
+  margin-top: -0.9rem;
 }
 
 .text-scroll-text {
@@ -163,7 +169,7 @@ header {
     width: 23rem;
   }
 }
-@media screen and (max-width: 1165px) {
+/* @media screen and (max-width: 1165px) {
   .text-scroll {
     background-color: #14244c;
     height: 15rem;
@@ -171,10 +177,10 @@ header {
   }
 
   .welcome {
-    width: 20rem;
+    width: 25rem;
   }
-}
-@media screen and (max-width: 997px) {
+} */
+@media screen and (max-width: 1165px) {
   .home-page-bottom {
     display: none;
   }
