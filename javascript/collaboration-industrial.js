@@ -21,7 +21,7 @@ for (var i = 0; i < data.length; i++) {
   var row = `
       <div class="companyEach col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="companyEachCard">
-          <div className="imgDiv">
+          <div class="img-colab-div">
           <img
           src=${data[i].imgLink}
           alt=""

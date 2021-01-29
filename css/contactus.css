@@ -1,12 +1,18 @@
+.contact-info {
+  font-weight: 600;
+}
+
+.contactSubmitBtn {
+  color: white;
+  padding: 5px 10px;
+  background-color: #14244c;
+}
+
 .month {
   padding: 70px 25px;
   width: 100%;
   background: #1abc9c;
   text-align: center;
-}
-
-.contact-info {
-  font-weight: 600;
 }
 
 .month ul {
