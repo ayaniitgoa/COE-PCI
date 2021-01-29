@@ -1,5 +1,5 @@
 .research-img {
-  width: 22rem;
+  width: 20rem;
   margin-bottom: 10px;
   /* border: 2px solid #d39232;
   background-color: #d39232; */
@@ -12,6 +12,7 @@
 }
 .researchPubAll {
   margin: 5px auto;
+  margin-top: -1rem;
 }
 
 .researchText {
@@ -27,11 +28,11 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .researchPubCard {
-  width: 100%;
+  width: 90%;
   /* height: 26rem; */
   border: 2px solid rgb(173, 173, 173);
   padding: 10px 0;
@@ -100,7 +101,11 @@
 
 @media screen and (max-width: 500px) {
   .research-img {
-    width: 70vw;
+    width: 50vw;
+  }
+
+  .researchPubAll {
+    margin-top: 0rem;
   }
 
   .research-title {
@@ -110,6 +115,17 @@
 
   .research-img-project {
     width: 60vw;
+  }
+  .researchPubCard {
+    width: 90%;
+    /* height: 26rem; */
+    border: 2px solid rgb(173, 173, 173);
+    padding: 10px 0;
+    height: 100%;
+  }
+
+  .researchPubEach {
+    margin-top: 1rem;
   }
 
   .researchText {
