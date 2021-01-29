@@ -12,8 +12,9 @@
 }
 
 .companyImg {
+  width: 90%;
+  height: 9rem;
   margin-bottom: 10px;
-  width: 8rem;
 }
 
 .companyEachCard {
@@ -39,7 +40,8 @@
   }
 
   .companyImg {
-    width: 8rem;
+    width: 70%;
+    height: 7rem;
   }
 
   .companyText {
