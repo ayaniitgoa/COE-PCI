@@ -130,3 +130,17 @@ for (var i = 0; i < data.length; i++) {
     `;
   selectDiv.innerHTML += row;
 }
+
+function getSelectedValue() {
+  var selectedValue = document.getElementById("selectFacility").value;
+  var afterSelectedText = document.getElementById("after-selectedText");
+  var calenderImg = document.getElementById("calenderContactUs");
+  if (selectedValue !== "select") {
+    afterSelectedText.innerText =
+      "Please select the date for using the " + selectedValue + " facility :";
+    calenderImg.style.display = "block";
+  } else {
+    calenderImg.style.display = "none";
+    afterSelectedText.innerText = "";
+  }
+}

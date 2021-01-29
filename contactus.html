@@ -134,14 +134,16 @@
     <form class="container" onsubmit="facilitySelect" action="">
 
       <div class="my-3" id="" class="form-group">
-        <label class="facility-header-text" for="selectFacility">Select Facility </label>
-        <select  id="selectFacility" class="form-control">
-          <option selected>Select</option>
+        <label class="facility-header-text" for="selectFacility">Check Reservations of Facilities</label>
+        <select  id="selectFacility" class="form-control" onchange="getSelectedValue();">
+          <option value="select" selected>Select</option>
           
         </select>
         </div>
-        <button class="contactSubmitBtn" type="submit" class="mt-2">Submit</button>
+        <!-- <button class="contactSubmitBtn" type="submit" class="mt-2">Check Reservations</button> -->
       </form>
+      <div class=" container afterSelectedText" id="after-selectedText"></div>
+      <img class="container calenderContactUs" id="calenderContactUs" src="./images/calendar.png" alt="">
         <!-- <div class="calender container">
           <div class="month"> -->
         <!-- <ul>

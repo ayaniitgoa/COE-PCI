@@ -150,7 +150,7 @@ header {
 }
 
 .text-scroll-text ul li {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .text-scroll-text-event ul li {
@@ -177,7 +177,7 @@ header {
     transform: translateY(15%);
   }
   100% {
-    transform: translateY(-117vh);
+    transform: translateY(-130vh);
   }
 }
 @keyframes scrolling-mob {
@@ -185,7 +185,7 @@ header {
     transform: translateY(15%);
   }
   100% {
-    transform: translateY(-155vh);
+    transform: translateY(-220vh);
   }
 }
 
