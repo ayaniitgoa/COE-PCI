@@ -1,17 +1,17 @@
 var data = [
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/lab/csir.jpg",
     companyName: "IICB-CSIR",
   },
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/lab/nio.jpg",
     companyName: "NIO Goa",
   },
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/lab/barc.png",
     companyName: "BARC",
   },
 ];
