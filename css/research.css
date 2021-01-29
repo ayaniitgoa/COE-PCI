@@ -3,6 +3,12 @@
   border: 2px solid #d39232;
   background-color: #d39232;
 }
+.research-img-project {
+  width: 20rem;
+  border: 2px solid #d39232;
+  background-color: #d39232;
+  margin-bottom: 1rem;
+}
 
 .research-div {
   display: flex;
@@ -11,6 +17,14 @@
   align-items: center;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
+}
+
+.research-div-project {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .research-title {
@@ -25,6 +39,9 @@
 .research-text {
   width: 60vw;
   text-align: justify;
+}
+.research-text-project {
+  width: 70vw;
 }
 
 .research-even {
@@ -61,5 +78,9 @@
   .research-title {
     font-size: 1rem;
     margin-bottom: 0;
+  }
+
+  .research-img-project {
+    width: 60vw;
   }
 }

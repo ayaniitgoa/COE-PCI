@@ -78,15 +78,16 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   align-items: center;
 }
 
 .text-scroll {
   background-color: #14244c;
-  height: 15rem;
+  height: 7.3rem;
   width: 28rem;
   border: 2px solid #d39232;
+  margin-top: 2rem;
 }
 
 .text-scroll-title {
@@ -130,6 +131,24 @@ header {
   height: 80%;
 }
 
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* height: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframe-container iframe {
+  position: absolute;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  margin-top: 19em;
+  margin-bottom: 5rem;
+}
+
 .text-scroll-text ul li {
   margin-top: 10px;
 }
@@ -151,7 +170,7 @@ header {
 
 @keyframes scrolling {
   0% {
-    transform: translateY(90%);
+    transform: translateY(30%);
   }
   100% {
     transform: translateY(-40vh);
@@ -205,21 +224,40 @@ header {
 
   .welcome {
     width: 90vw;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: justify;
   }
 
   .text-scroll-mob {
     display: flex;
     width: 90vw;
-
-    margin: 20px auto;
+    /* align-items: center; */
     justify-content: space-between;
+    margin: 0px auto;
+
     flex-wrap: wrap;
+    margin-top: -1rem;
+  }
+
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20rem;
+    /* height: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    margin: 0 auto;
+    width: 60%;
+    height: 90%;
+    margin-top: 19rem;
   }
 }
 
-@media screen and (max-width: 713px) {
+@media screen and (max-width: 790px) {
   .text-scroll-mob {
     justify-content: center;
   }
@@ -243,6 +281,15 @@ header {
     margin: 5px;
   }
 
+  .iframe-container iframe {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    margin-top: 20em;
+    /* margin-bottom: 5rem; */
+  }
+
   .header-left {
     font-size: 0.6rem;
   }
@@ -263,5 +310,26 @@ header {
 
   input::-webkit-input-placeholder {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .iframe-container iframe {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    margin-top: 20em;
+    /* margin-bottom: 5rem; */
+  }
+}
+@media screen and (max-width: 350px) {
+  .iframe-container iframe {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    margin-top: 20em;
+    /* margin-bottom: 8rem; */
   }
 }
