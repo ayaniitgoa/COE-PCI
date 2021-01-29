@@ -131,9 +131,20 @@
       </div>
     </nav>
     <div class="contact-us-header">CONTACT US</div>
-    <div class="calender container">
-      <div class="month">
-        <ul>
+    <form onsubmit="facilitySelect" action="">
+
+      <div id="" class="form-group">
+        <label for="selectFacility">Facilities</label>
+        <select  id="selectFacility" class="form-control">
+          <option selected>Choose...</option>
+          
+        </select>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+        <!-- <div class="calender container">
+          <div class="month"> -->
+        <!-- <ul>
           <li class="prev">&#10094;</li>
           <li class="next">&#10095;</li>
           <li>
@@ -185,13 +196,13 @@
         <li>29</li>
         <li>30</li>
         <li>31</li>
-      </ul>
+      </ul> -->
+    <!-- </div>
+  </div> -->
       <div class="mt-3 contact-info">
         <p>Email: faculty-coordinator-coe@iitgoa.ac.in</p>
         <!-- <p>Phone: 9876543210</p> -->
         <p>Address: CoE-PCI IIT Goa, Farmagudi Ponda, Goa-403401</p>
-      </div>
-    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -202,5 +213,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="./javascript/contactus.js"></script>
   </body>
 </html>
