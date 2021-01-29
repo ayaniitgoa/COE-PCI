@@ -1,4 +1,4 @@
-var researchProjectsDiv = document.getElementById("research-projects-all");
+var researchProjectsDiv = document.getElementById("researchPubAll");
 var data = [
   {
     imgLink:
@@ -67,16 +67,33 @@ var data = [
 
 for (var i = 0; i < data.length; i++) {
   var row = `
-    <div class= 'research-div-project'>
-      <img
-        class="research-img-project"
-        src=${data[i].imgLink}
-        alt=""
-      />
-      <div class="research-text text-center mb-1 research-text-project">
-        ${data[i].text}
-      </div>
-    </div>
-    `;
+ 
+        <div class="researchPubEach col-lg-4 col-md-6 col-sm-12">
+          <div class="researchPubCard">
+            <img
+              class="research-img"
+              src=${data[i].imgLink}
+              alt=""
+            />
+            <p class="researchText">
+              ${data[i].text}
+              
+      
+            </p>
+          </div>
+        </div>
+  `;
+  // var row = `
+  //   <div class= 'research-div-project'>
+  //     <img
+  //       class="research-img-project"
+  //       src=${data[i].imgLink}
+  //       alt=""
+  //     />
+  //     <div class="research-text text-center mb-1 research-text-project">
+  //       ${data[i].text}
+  //     </div>
+  //   </div>
+  //   `;
   researchProjectsDiv.innerHTML += row;
 }

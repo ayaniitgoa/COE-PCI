@@ -135,27 +135,48 @@ var data = [
   },
 ];
 
-var researchDivElement = document.getElementById("research-all");
+var researchDivElement = document.getElementById("researchPubAll");
 for (var i = 0; i < data.length; i++) {
   var row = `
-        <div class= 'research-div ${
-          i % 2 === 0 ? "research-odd" : "research-even"
-        }'>
-          <img
-            class="research-img"
-            src=${data[i].imgLink}
-            alt=""
-          />
-          <div class="research-text">
-            ${data[i].text}
-            ${
-              data[i].readMoreLink.length > 0
-                ? `<a href=${data[i].readMoreLink} target="_blank"> Read More </a>`
-                : ""
-            }
-            
+ 
+        <div class="researchPubEach col-lg-4 col-md-6 col-sm-12">
+          <div class="researchPubCard">
+            <img
+              class="research-img"
+              src=${data[i].imgLink}
+              alt=""
+            />
+            <p class="researchText">
+              ${data[i].text}
+              
+       ${
+         data[i].readMoreLink.length > 0
+           ? `<a href=${data[i].readMoreLink} target="_blank"> Read More </a>`
+           : ""
+       }
+            </p>
           </div>
         </div>
-        `;
+  `;
+  // var row = `
+  //       <div class= 'research-div ${
+  //         i % 2 === 0 ? "research-odd" : "research-even"
+  //       }'>
+  //         <img
+  //           class="research-img"
+  //           src=${data[i].imgLink}
+  //           alt=""
+  //         />
+  //         <div class="research-text">
+  //           ${data[i].text}
+  //           ${
+  //             data[i].readMoreLink.length > 0
+  //               ? `<a href=${data[i].readMoreLink} target="_blank"> Read More </a>`
+  //               : ""
+  //           }
+
+  //         </div>
+  //       </div>
+  //       `;
   researchDivElement.innerHTML += row;
 }
