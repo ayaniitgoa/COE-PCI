@@ -56,13 +56,8 @@ var data = [
   },
   {
     // ./images/company/
-    imgLink: "./images/collab/insti/varanasi.png",
-    companyName: "Varanasi Group",
-  },
-  {
-    // ./images/company/
-    imgLink: "./images/collab/insti/exterer.jpg",
-    companyName: "University of Exterer",
+    imgLink: "./images/collab/insti/exeter.jpg",
+    companyName: "University of Exeter",
   },
 
   {
