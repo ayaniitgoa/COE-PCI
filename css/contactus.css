@@ -8,6 +8,11 @@
   background-color: #14244c;
 }
 
+.facility-header-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .month {
   padding: 70px 25px;
   width: 100%;
@@ -113,5 +118,10 @@ ul {
 
   .contact-info {
     font-size: 0.8rem;
+  }
+
+  .facility-header-text {
+    font-weight: bold;
+    font-size: 0.9rem;
   }
 }

@@ -153,15 +153,19 @@ header {
   margin-top: 10px;
 }
 
+.text-scroll-text-event ul li {
+  margin-top: -5px;
+}
+
 .text-animation {
-  animation: scrolling 15s linear infinite;
+  animation: scrolling 28s linear infinite;
 }
 
 .text-animation:hover {
   animation-play-state: paused;
 }
 .text-animation-mobile {
-  animation: scrolling-mob 10s linear infinite;
+  animation: scrolling-mob 28s linear infinite;
 }
 
 .text-animation-mobile:hover {
@@ -170,18 +174,18 @@ header {
 
 @keyframes scrolling {
   0% {
-    transform: translateY(30%);
+    transform: translateY(15%);
   }
   100% {
-    transform: translateY(-40vh);
+    transform: translateY(-117vh);
   }
 }
 @keyframes scrolling-mob {
   0% {
-    transform: translateY(100%);
+    transform: translateY(15%);
   }
   100% {
-    transform: translateY(-65vh);
+    transform: translateY(-155vh);
   }
 }
 
