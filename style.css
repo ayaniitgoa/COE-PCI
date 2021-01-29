@@ -154,7 +154,7 @@ header {
 }
 
 .text-animation {
-  animation: scrolling 10s linear infinite;
+  animation: scrolling 15s linear infinite;
 }
 
 .text-animation:hover {
