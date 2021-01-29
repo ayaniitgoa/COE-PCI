@@ -14,6 +14,16 @@ var data = [
     imgLink: "./images/collab/lab/barc.png",
     companyName: "BARC",
   },
+  {
+    // ./images/company/
+    imgLink: "./images/collab/lab/ampri.png",
+    companyName: "CSIR-AMPRI, Bhopal",
+  },
+  {
+    // ./images/company/
+    imgLink: "./images/collab/lab/cmeri.png",
+    companyName: "CSIR-CMERI, Durgapur",
+  },
 ];
 
 var allInstitutes = document.getElementById("companyAll");
