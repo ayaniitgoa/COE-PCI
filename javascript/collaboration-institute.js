@@ -61,8 +61,8 @@ var data = [
   },
   {
     // ./images/company/
-    imgLink: "./images/collab/insti/exterer.jpg",
-    companyName: "University of Exterer",
+    imgLink: "./images/collab/insti/exeter.jpg",
+    companyName: "University of Exeter",
   },
 
   {
