@@ -1,17 +1,17 @@
 var data = [
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/industry/mefy.jpg",
     companyName: "MeFy Care",
   },
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/industry/weir.jpg",
     companyName: "Weir",
   },
   {
     // ./images/company/
-    imgLink: "https://iitgoa.ac.in/img/dept/EE/bidhan.jpg",
+    imgLink: "./images/collab/industry/spovum.jpg",
     companyName: "SpOvum technologies Pvt. Ltd.",
   },
 ];
