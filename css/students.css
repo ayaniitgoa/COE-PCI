@@ -35,6 +35,7 @@
 .student-img {
   width: 119px;
   height: 153px;
+  border: 2px solid rgb(218, 218, 218);
 }
 
 .student-each-left {

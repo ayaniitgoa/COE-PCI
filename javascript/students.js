@@ -2,7 +2,8 @@ var studentsDiv = document.getElementById("studentsAll");
 var data = [
   {
     name: "Muhammad Saiful Islam",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -13,7 +14,8 @@ var data = [
   },
   {
     name: "Anushka Gupta",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -24,7 +26,8 @@ var data = [
   },
   {
     name: "Naresh Mandal",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -35,7 +38,8 @@ var data = [
   },
   {
     name: "Amit K Nayse",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -46,7 +50,8 @@ var data = [
   },
   {
     name: "Abhishek Mund",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -57,7 +62,8 @@ var data = [
   },
   {
     name: "Shubham Ganar",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -68,7 +74,8 @@ var data = [
   },
   {
     name: "Jithin S Thoppil",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -79,7 +86,8 @@ var data = [
   },
   {
     name: "Yunus Waheed",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -90,7 +98,8 @@ var data = [
   },
   {
     name: "Indrajeet D Prasad",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -102,7 +111,8 @@ var data = [
 
   {
     name: "Sumitra Shit",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -113,7 +123,8 @@ var data = [
   },
   {
     name: "Shriya Saha",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -124,7 +135,8 @@ var data = [
   },
   {
     name: "Abhishek Singh",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -135,7 +147,8 @@ var data = [
   },
   {
     name: "Akshat Jain",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -146,7 +159,8 @@ var data = [
   },
   {
     name: "Rubal Dhiman",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -157,7 +171,8 @@ var data = [
   },
   {
     name: "Abhilasha Kumari",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -168,7 +183,8 @@ var data = [
   },
   {
     name: "Himanshu Marwah",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -179,7 +195,8 @@ var data = [
   },
   {
     name: "Surasree Sadhukhan",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -190,7 +207,8 @@ var data = [
   },
   {
     name: "Roumita Roy",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "PhD",
     facultyExpertise: "",
@@ -201,7 +219,8 @@ var data = [
   },
   {
     name: "Piyush Pulukool",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "M.Tech",
     facultyExpertise: "",
@@ -212,7 +231,8 @@ var data = [
   },
   {
     name: "Mahesh Jagrulla",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "M.Tech",
     facultyExpertise: "",
@@ -223,7 +243,8 @@ var data = [
   },
   {
     name: "Amit Kumar",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "M.Tech",
     facultyExpertise: "",
@@ -234,7 +255,8 @@ var data = [
   },
   {
     name: "Shweta Bhaviskar",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "M.Tech",
     facultyExpertise: "",
@@ -245,7 +267,8 @@ var data = [
   },
   {
     name: "Priyanshi Saraswat",
-    img: "./images/faculty/arindam.jpg",
+    // img: "./images/faculty/arindam.jpg",
+    img: "./images/white.png",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
     facultyDesignation: "M.Tech",
     facultyExpertise: "",
