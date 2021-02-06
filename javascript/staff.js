@@ -1,17 +1,5 @@
 var data = [
   {
-    name: "Dr. Arindam Das",
-    img: "./images/faculty/arindam.jpg",
-    profileLink: "https://iitgoa.ac.in/faculty_page.php?id=74",
-    facultyDesignation: "Assistant Professor",
-    facultyExpertise: "Mechanical Engineering",
-    reasearchInterest:
-      "Interfacial Science: Wettability, Adhesion, Nucleation and Heat Transfer at Interface. Nanoparticle and Colloid Synthesis, Active Nano Fluids, Biomimicry, EMI Shielding, Nanoparticle Polymer Composites, Microfluidics.",
-    email: "arindam@iitgoa.ac.in",
-    phone: "0832-2490-103",
-    address: "F-20, Academic Block",
-  },
-  {
     name: "Dr. Sujit Kumar Sahoo",
     img: "./images/faculty/sujit.jpg",
     profileLink: "https://iitgoa.ac.in/faculty_page.php?id=69",
@@ -228,36 +216,37 @@ var data = [
   },
 ];
 
-var facultyDiv = document.getElementById("facultyAll");
+var staffDiv = document.getElementById("staffAll");
+
 for (var i = 0; i < data.length; i++) {
-  var row = `<div class="faculty-each">
-  <div class="faculty-each-left">
-    <img class="faculty-img" src=${data[i].img} alt="" />
-    <div class="faculty-each-info">
+  var row = `<div class="staff-each">
+  <div class="staff-each-left">
+    <img class="staff-img" src=${data[i].img} alt="" />
+    <div class="staff-each-info">
       <a
         href=${data[i].profileLink}
-        class="faculty-name"
+        class="staff-name"
         >${data[i].name}</a
       >
-      <div class="faculty-des">
-        <span class="faculty-designation">${data[i].facultyDesignation}</span>
+      <div class="staff-des">
+        <span class="staff-designation">${data[i].facultyDesignation}</span>
         <br />
-        <span class="faculty-expertise">${data[i].facultyExpertise}</span>
+        <span class="staff-expertise">${data[i].facultyExpertise}</span>
       </div>
 
       <p class="research-interest-title">Research Interests</p>
-      <p class="faculty-interest">
+      <p class="staff-interest">
         ${data[i].reasearchInterest}
       </p>
     </div>
   </div>
-  <div class="faculty-each-right">
-    <div class="faculty-email">${data[i].email}</div>
-    <div class="faculty-contact">${data[i].phone}</div>
-    <div class="faculty-address">
+  <div class="staff-each-right">
+    <div class="staff-email">${data[i].email}</div>
+    <div class="staff-contact">${data[i].phone}</div>
+    <div class="staff-address">
       ${data[i].address}
     </div>
   </div>
 </div>`;
-  facultyDiv.innerHTML += row;
+  staffDiv.innerHTML += row;
 }

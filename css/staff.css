@@ -16,7 +16,8 @@
 }
 
 .staff-des {
-  margin-top: -10px;
+  /* margin-top: -10px; */
+  margin-top: 5px;
 }
 
 .staff-interest {
@@ -37,6 +38,10 @@
   height: 153px;
 }
 
+.staff-designation {
+  font-weight: 500;
+}
+
 .staff-each-left {
   display: flex;
 }
@@ -48,6 +53,11 @@
 .staff-each-info {
   width: 50vw;
   margin-left: 30px;
+}
+
+.searchbar {
+  width: 85vw;
+  margin: 0 auto;
 }
 
 .research-interest-title,
@@ -120,10 +130,15 @@
   .staff-each-right {
     margin: 0px;
     text-align: center;
+    font-size: 0.8rem;
   }
   .staff-each {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 0.8rem;
   }
 }
