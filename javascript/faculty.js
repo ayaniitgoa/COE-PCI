@@ -226,6 +226,18 @@ var data = [
     phone: "0832-2490-897",
     address: "Director Office, Admin Block, Main Building",
   },
+  {
+    name: "Dr. Mantu Santra",
+    img: "./images/faculty/mantu.jpg",
+    profileLink: "https://iitgoa.ac.in/faculty_page.php?id=9",
+    facultyDesignation: "Assistant Professor",
+    facultyExpertise: "Chemistry",
+    reasearchInterest:
+      "Theoretical and computational Biophysical Chemistry, Structure and dynamics of fluids, Phase transition and polymorphism, Statistical Mechanics, Mathematical modeling in systems biology",
+    email: "mantu@iitgoa.ac.in",
+    phone: "0832-2490-142",
+    address: "",
+  },
 ];
 
 var facultyDiv = document.getElementById("facultyAll");
